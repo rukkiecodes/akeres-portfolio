@@ -1,5 +1,5 @@
 <template>
-    <v-img class="skillImage rounded-lg" src="https://res.cloudinary.com/rukkiecodes/image/upload/v1663761613/IMG_21142_pljiqr.jpg" />
+    <v-img class="skillImage rounded-lg" src="https://res.cloudinary.com/rukkiecodes/image/upload/v1664138243/WhatsApp_Image_2022-09-25_at_9.31.40_PM_oivbqx.jpg" />
 </template>
 
 <style scoped>
@@ -10,7 +10,6 @@
 .skillImage::after {
   content: "";
   position: absolute;
-  background: linear-gradient(90deg, transparent, #12121242, #121212);
   width: 100%;
   height: 100%;
   z-index: 10;

@@ -8,12 +8,6 @@
         <v-card-title class="mx-0 px-0 text-h4">skills()</v-card-title>
       </v-card>
     </v-col>
-    <v-col
-      cols="12"
-      class="mt-n5"
-    >
-      <span class="blue-grey--text text--darken-1">// 5+ years of experience</span>
-    </v-col>
     <v-col cols="12">
       <span>Main skills</span>
     </v-col>

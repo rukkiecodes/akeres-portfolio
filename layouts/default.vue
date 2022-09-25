@@ -14,12 +14,12 @@
         to="/"
         class="text-decoration-none mr-5 deep-purple--text text--accent-4 hidden-xs-only"
         active-class="blue-grey--text text--darken-1"
-      >.rukkie()</router-link>
+      >Home</router-link>
       <router-link
         to="/work"
         class="text-decoration-none mr-5 deep-purple--text text--accent-4 hidden-xs-only"
         active-class="blue-grey--text text--darken-1"
-      >.work()</router-link>
+      >Work</router-link>
       <Contact />
       <v-menu offset-y>
         <template v-slot:activator="{ on, attrs }">
@@ -70,8 +70,8 @@ export default {
   data () {
     return {
       routes: [
-        { title: '.rukkie()', to: '/' },
-        { title: '.work()', to: '/work' },
+        { title: 'Home', to: '/' },
+        { title: 'Work', to: '/work' },
       ]
     };
   },

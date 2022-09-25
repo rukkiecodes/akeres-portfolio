@@ -15,6 +15,7 @@
           v-model="drawer"
           width="200"
           color="#22272E"
+          dark
           absolute
         >
           <template v-slot:prepend>
@@ -27,28 +28,10 @@
                   size="100"
                   class="mx-auto"
                 >
-                  <v-img src="https://res.cloudinary.com/rukkiecodes/image/upload/v1663761613/IMG_21142_pljiqr.jpg" />
+                  <v-img src="https://res.cloudinary.com/rukkiecodes/image/upload/v1664138243/WhatsApp_Image_2022-09-25_at_9.31.40_PM_oivbqx.jpg" />
                 </v-avatar>
-                <v-card-text class="text-body-1 font-weight-bold">Terry Amagboro</v-card-text>
-                <v-card-text class="text-body-2 font-weight-light mt-n8">rukkiecodes</v-card-text>
+                <v-card-text class="text-body-1 font-weight-bold">Akere Dumale</v-card-text>
               </v-card-text>
-              <v-card-actions class="mt-n6">
-                <v-btn
-                  color="#373E47"
-                  small
-                  depressed
-                  block
-                  class="text-capitalize rounded-lg"
-                  @click="gotoGithub"
-                >
-                  View profile
-                </v-btn>
-              </v-card-actions>
-              <span class="text-caption ml-2">
-                <v-icon size="15 ">mdi-account-supervisor-outline</v-icon><span class="font-weight-bold mx-1">4</span>followers
-              </span>
-              <span class="text-caption ml-1"><span class="font-weight-bold mx-1">10</span>following</span>
-              <br>
               <span class="text-caption ml-2">
                 <v-icon size="15 ">mdi-map-marker-outline</v-icon>Nigeria
               </span>
@@ -57,14 +40,14 @@
                 <v-icon size="15 ">mdi-link-variant</v-icon><a
                   class="white--text ml-1 text-decoration-none"
                   href="/"
-                >https://rukkiecodes.com</a>
+                >https://akeredumale.com</a>
               </span>
               <br>
               <span class="text-caption ml-2">
                 <v-icon size="15 ">mdi-twitter</v-icon><a
                   class="white--text ml-1 text-decoration-none"
-                  href="https://twitter.com/rukkiecodes"
-                >@rukkiecodes</a>
+                  href="https://twitter.com/Akeredumale"
+                >@Akeredumale</a>
               </span>
             </v-card>
           </template>
@@ -83,15 +66,27 @@
           <v-toolbar
             dense
             flat
+            dark
             color="#22272E"
           >
-            <v-app-bar-nav-icon @click="drawer = !drawer" class="hidden-lg-and-up" />
+            <v-app-bar-nav-icon
+              @click="drawer = !drawer"
+              class="hidden-lg-and-up"
+            />
             <v-app-bar-title class="ml-0 pl-0">Recent projects</v-app-bar-title>
             <v-spacer />
-            <v-btn small depressed color="deep-purple accent-4" class="rounded-lg" to="/work">work()</v-btn>
+            <v-btn
+              small
+              depressed
+              dark
+              color="deep-purple accent-4"
+              class="rounded-lg text-capitalize"
+              to="/work"
+            >work</v-btn>
           </v-toolbar>
 
           <v-sheet
+            dark
             width="100%"
             height="452"
             color="transparent"

@@ -3,6 +3,7 @@
     <v-btn
       color="deep-purple accent-4"
       depressed
+      dark
       :small="small"
       class="rounded-lg text-capitalize"
       @click.stop="dialog = true"
@@ -47,7 +48,7 @@
           <v-spacer></v-spacer>
 
           <v-btn
-            color="white"
+            color="grey darken-3"
             class="text-capitalize"
             text
             @click="dialog = false"
@@ -59,6 +60,7 @@
             color="deep-purple accent-4"
             class="text-capitalize"
             depressed
+            dark
             @click="sendFeedback"
             :loading="loading"
           >
