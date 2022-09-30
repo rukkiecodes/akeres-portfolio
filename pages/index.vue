@@ -55,7 +55,7 @@
         md="4"
       >
         <v-card
-          color="transparent mx-0 ml-sm-5"
+          color="transparent mx-0"
           flat
         >
           <v-card-title class="mx-0 px-0 text-h4">
@@ -81,7 +81,6 @@
               <span class="blue-grey--text text--darken-1">
                 10-20 second!
                 <br>
-                <br>
                 That's all you need to capture the interest of your reader.
                 <br>
                 <br>
@@ -90,9 +89,7 @@
                 <br>
                 I know selling is all about being able to satisfy the psychological need of customers to persuade them to act
                 <br>
-                <br>
                 Through my words, I will help you drive more traffic leads and create a strong enough desire in the mind of your prospects to act
-                <br>
                 <br>
                 Niches as specified in but not limited to are health, beauty e-commerce, affiliate content etc….
               </span>

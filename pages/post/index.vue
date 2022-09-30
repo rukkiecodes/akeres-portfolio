@@ -161,7 +161,7 @@ export default {
 
       let link = `blog/${uuid()}/${this.image.name}`
 
-      const uploadTask = uploadBytesResumable(ref(storage, link), this.image.name)
+      const uploadTask = uploadBytesResumable(ref(storage, link), this.image)
 
       uploadTask.on('state_changed',
         snapshot => {},
@@ -179,14 +179,11 @@ export default {
               this.text = 'Post saved'
 
               this.editedContent = ''
+              this.title = ''
               this.image = null
             })
         }
       )
-
-      this.loading = false
-      this.snackbar = true
-      this.text = 'Post saved'
     }
   },
 }
