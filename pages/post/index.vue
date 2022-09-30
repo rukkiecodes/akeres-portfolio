@@ -24,11 +24,13 @@
       class="mb-5 text-capitalize"
       dark
       depressed
-      rounded
     >
       <v-icon class="mr-2">mdi-folder-image</v-icon>
       Set cover photo
     </v-btn>
+
+    <v-text-field v-model="title" placeholder="Title" label="Title" class="my-5" hide-details solo flat outlined />
+
     <client-only>
       <quill-editor
         ref="editor"
@@ -46,6 +48,7 @@
       color="deep-purple accent-4"
       block
       dark
+      depressed
     >
       Save post
     </v-btn>
@@ -88,6 +91,7 @@ export default {
     editedContent: '',
     uploadProgress: '',
     text: '',
+    title: '',
     snackbar: '',
     downloadURL: '',
     image: null,
@@ -149,6 +153,7 @@ export default {
     async newPost () {
       if (!this.image) return
       if (this.editedContent == '') return
+      if (this.title == '') return
 
       this.loading = true
 
@@ -166,7 +171,8 @@ export default {
             .then(async downloadURL => {
               await addDoc(collection(db, 'blog'), {
                 cover: downloadURL,
-                post: JSON.stringify(this.editedContent)
+                post: JSON.stringify(this.editedContent),
+                title: this.title
               })
               this.loading = false
               this.snackbar = true
