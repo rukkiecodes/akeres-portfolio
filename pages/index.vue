@@ -23,8 +23,8 @@
             <v-avatar size="150">
               <v-img src="https://res.cloudinary.com/rukkiecodes/image/upload/v1664138243/WhatsApp_Image_2022-09-25_at_9.31.40_PM_oivbqx.jpg" />
             </v-avatar>
-            <v-card-text class="text-h4 font-weight-bold">Akere Dumale</v-card-text>
-            <span>Creative frontend developer, designer and illustrator.</span>
+            <v-card-text class="text-h4 font-weight-bold grey--text text--darken-4">Akere Dumale</v-card-text>
+            <span class="grey--text text--darken-4">Creative frontend developer, designer and illustrator.</span>
             <v-card-actions class="d-flex justify-center">
               <v-btn
                 icon
@@ -79,13 +79,22 @@
           <v-row>
             <v-col cols="12">
               <span class="blue-grey--text text--darken-1">
-                <span>Personally connected with the web development industry and information technology for many years.</span>
+                10-20 second!
                 <br>
                 <br>
-                <span>Well-organised, problem solver, independent with high attention to detail. fan of Animated sries, outdoor activities, and networking.</span>
+                That's all you need to capture the interest of your reader.
                 <br>
                 <br>
-                <span>Intersted in the entire frontend spectrum and working on ambirious projects with positive people.</span>
+                Hi my name is Akere a direct Response copywriter, having gained experience in sales copywriting and being able to work with diverse clients
+                <br>
+                <br>
+                I know selling is all about being able to satisfy the psychological need of customers to persuade them to act
+                <br>
+                <br>
+                Through my words, I will help you drive more traffic leads and create a strong enough desire in the mind of your prospects to act
+                <br>
+                <br>
+                Niches as specified in but not limited to are health, beauty e-commerce, affiliate content etc….
               </span>
             </v-col>
           </v-row>
